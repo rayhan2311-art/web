@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, rgb(22, 22, 22), #fcb69f);
+    color: #000000;
+}
+
+/* Grid layout for home and beranda */
+.top-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.top-section div {
+    padding: 50px;
+    color: rgb(250, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about1 {
+    max-width: 550px;
+}
+
+.home {
+    background: url(Gambar\ WhatsApp\ 2024-09-08\ pukul\ 15.05.46_35f4a436.jpg);
+    background-size: contain;
+    position: relative;
+    background-position: center center;
+}   
+
+.home h1 {
+    font-size: 3em;
+}
+
+.beranda {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.beranda p {
+    font-size: 1.2em;
+    max-width: 500px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#about {
+    height: 100vh;
+    background: linear-gradient(to right,rgb(55, 68, 187),rgba(19, 175, 32, 0.623) );
+    color: #000000;
+}
+
+#social #contact {
+    height: 100vh;
+    background: linear-gradient(to right,rgb(22, 22, 22),#fcb6 );
+    color: #000000;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-top: 0px;
+    text-align: center;
+}
+
+section h3 {
+    font: size 2em;
+    text-align: center;
+}
+
+section p {
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+border-radius: 50%;
+.profile img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.profile .bio {
+    max-width: 600px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+footer a {
+    color: #fcb69f;
+    margin: 0 10px;
+    text-decoration: none;
+}
